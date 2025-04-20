@@ -45,6 +45,6 @@ endif()
 
 
 # Configure include/splatt/types.h to include specified type widths.
-configure_file(${CMAKE_SOURCE_DIR}/include/splatt/types_config.h
-               ${CMAKE_SOURCE_DIR}/include/splatt/types.h)
+configure_file(${CMAKE_CURRENT_SOURCE_DIR}/include/splatt/types_config.h
+               ${CMAKE_CURRENT_SOURCE_DIR}/include/splatt/types.h)
 

@@ -10,7 +10,7 @@ else()
     message(STATUS "Building BLIS & reference LAPACK.")
     execute_process(
         COMMAND
-        ${CMAKE_SOURCE_DIR}/scripts/download-blas-lapack.sh
+        ${CMAKE_CURRENT_SOURCE_DIR}/scripts/download-blas-lapack.sh
         ${CMAKE_BINARY_DIR}/blis
         ${CONFIG_BLAS_INT}
     )
